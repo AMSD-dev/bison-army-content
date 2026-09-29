@@ -1,0 +1,72 @@
+name: Publish Content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "articles/**"
+      - "images/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-purge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # need the previous commit to diff changed files
+
+      # Compute what changed FIRST, before the auto-commit step below creates
+      # a new commit — otherwise this would diff the bot's own commit instead
+      # of the real article changes.
+      - name: Determine changed article slugs
+        id: changed
+        run: |
+          SLUGS=$(git diff --name-only HEAD~1 HEAD -- articles \
+            | sed -E 's#articles/(.*)\.md#\1#')
+          echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build   # writes manifest.json, rss.xml, blog-sitemap.xml, llms-articles.txt
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate manifest + feeds [skip ci]"
+          file_pattern: manifest.json rss.xml blog-sitemap.xml llms-articles.txt
+
+      - name: Purge jsDelivr cache
+        run: |
+          REPO="${{ github.repository }}"
+          for FILE in manifest.json rss.xml blog-sitemap.xml llms-articles.txt; do
+            curl -s "https://purge.jsdelivr.net/gh/${REPO}@main/${FILE}" || true
+          done
+          for SLUG in ${{ steps.changed.outputs.slugs }}; do
+            curl -s "https://purge.jsdelivr.net/gh/${REPO}@main/articles/${SLUG}.md" || true
+          done
+
+      - name: Pre-warm changed pages
+        # Hits each changed URL once right now, through Amplify's proxy to
+        # the Lambda, so the (jsDelivr-fetching) render happens here in CI —
+        # not on a visitor's first request. No AWS credentials needed for
+        # this: it's just a plain HTTPS GET against the live site.
+        run: |
+          PATHS="/rss.xml /blog-sitemap.xml /llms.txt /blog"
+          for SLUG in ${{ steps.changed.outputs.slugs }}; do
+            PATHS="$PATHS /blog/$SLUG"
+            TAGS=$(node -e "
+              const p=require('./manifest.json').find(x=>x.slug==='$SLUG');
+              if (p) console.log(p.tags.map(t=>'/blog/tag/'+t).join(' '));
+            ")
+            PATHS="$PATHS $TAGS"
+          done
+          for PATH in $PATHS; do
+            curl -s -o /dev/null "https://bisonarmy.ca${PATH}" || true
+          done

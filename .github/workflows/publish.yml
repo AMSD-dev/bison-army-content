@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
+      - run: npm install
       - run: npm run build   # writes manifest.json, rss.xml, blog-sitemap.xml, llms-articles.txt
 
       - name: Commit generated files

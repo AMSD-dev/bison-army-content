@@ -22,7 +22,7 @@ faq:
 
 ## Quick Answer
 
-You stop starting over every Monday by removing friction, lowering the cost of showing up, and building a daily routine that doesn’t rely on motivation. Research shows that habits form through repetition, contextual cues, and identity-based behavior — not through weekly bursts of motivation (References 1–3). The key is consistency, not intensity.
+You stop starting over every Monday by removing friction, lowering the cost of showing up, and building a daily routine that doesn’t rely on motivation. Research shows that habits form through repetition, contextual cues, and identity-based behavior, not through weekly bursts of motivation (References 1–3). The key is consistency, not intensity.
 
 ## Why This Matters
 
@@ -34,11 +34,11 @@ If you’ve ever said:
 
 You’re not alone.
 
-The Monday restart is one of the most common fitness patterns. It feels productive, hopeful, and organized — but it often leads to repeating the same cycle:
+The Monday restart is one of the most common fitness patterns. It feels productive, hopeful, and organized, but it often leads to repeating the same cycle:
 
 **Motivation spike → strong start → mid-week collapse → guilt → restart next Monday.**
 
-In **Article #1: Why Motivation Fails**, we explained that motivation is unreliable. It fluctuates with stress, energy, and life demands. When your routine depends on motivation, it collapses the moment life gets busy.
+In [**Article #1: Why Motivation Fails**](/blog/why-motivation-fails-and-discipline-wins), we explained that motivation is unreliable. It fluctuates with stress, energy, and life demands. When your routine depends on motivation, it collapses the moment life gets busy.
 
 To break the Monday cycle, you need a system that works even when motivation disappears.
 
@@ -84,7 +84,7 @@ Many people believe they need more willpower to stay consistent.
 
 Research shows the opposite.
 
-Habits reduce the need for decision-making. When behaviors are repeated in stable contexts, they become automatic (References 1–2). Successful exercisers don’t rely on willpower — they rely on systems.
+Habits reduce the need for decision-making. When behaviors are repeated in stable contexts, they become automatic (References 1–2). Successful exercisers don’t rely on willpower, they rely on systems.
 
 For example:
 
@@ -107,7 +107,7 @@ Instead of:
 - complex programs  
 - high-intensity sessions  
 
-Use **15-minute workouts** through the Bison Army web app to reduce friction and make daily training easy.
+Use **15-minute workouts** through the [Bison Army web app](/welcome) to reduce friction and make daily training easy.
 
 Short workouts create momentum. Momentum creates discipline.
 
@@ -141,7 +141,7 @@ Missing one day is normal.
 
 Missing two days creates a pattern.
 
-Your goal is not perfection — it’s recovery. Return immediately after a miss.
+Your goal is not perfection, it’s recovery. Return immediately after a miss.
 
 ### 5. Build an Exercise Identity
 
@@ -187,7 +187,7 @@ Our platform is built around:
 - **Tours of Duty** to create accountability  
 - **Simple routines** to reduce decision fatigue  
 
-If you’ve read [**Article #1: Why Motivation Fails**](https://bisonarmy.ca/blog/why-motivation-fails-and-discipline-wins), this article is the next step in building a discipline-first fitness identity.
+If you’ve read [**Article #1: Why Motivation Fails**](/blog/why-motivation-fails-and-discipline-wins), this article is the next step in building a discipline-first fitness identity.
 
 ## Conclusion
 
@@ -201,7 +201,7 @@ You stop by:
 - returning quickly after setbacks  
 - strengthening your identity  
 
-Consistency is built one day at a time — not one Monday at a time.
+Consistency is built one day at a time, not one Monday at a time.
 
 **Ready to break the Monday cycle?**  
 [Join Bison Army](/welcome) and start your first 15-minute mission today.

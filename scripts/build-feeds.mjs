@@ -5,26 +5,36 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_URL = "https://bisonarmy.ca"; // the app's real domain, not this repo
 
-const posts = JSON.parse(
+// Canonical blog URLs are always lowercase. Article FILES may still be
+// mixed-case; the app/Lambda handle that (see `file` in the Lambda). Only
+// the public URL form matters here.
+const rawPosts = JSON.parse(
   await readFile(path.resolve(__dirname, "../manifest.json"), "utf-8")
 );
+const posts = rawPosts.map((p) => ({ ...p, slug: p.slug.toLowerCase() }));
+
+const seen = new Set();
+for (const p of posts) {
+  if (seen.has(p.slug)) throw new Error(`Duplicate slug after lowercasing: ${p.slug}`);
+  seen.add(p.slug);
+}
+for (const p of rawPosts) {
+  if (p.slug !== p.slug.toLowerCase()) {
+    console.warn(`[content] note: "${p.slug}" is mixed-case; public URL will be /blog/${p.slug.toLowerCase()}`);
+  }
+}
 
 function escapeXml(str = "") {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 // --- blog-sitemap.xml (referenced as a child sitemap from the app's main sitemap.xml) ---
-const tags = [...new Set(posts.flatMap((p) => p.tags))];
-const sitemapUrls = [
-  ...posts.map((p) => ({
-    loc: `${SITE_URL}/blog/${p.slug}`,
-    lastmod: p.updatedDate ?? p.publishDate,
-  })),
-  ...tags.map((t) => ({
-    loc: `${SITE_URL}/blog/tag/${t}`,
-    lastmod: new Date().toISOString().slice(0, 10),
-  })),
-];
+// Articles only. Tag pages are deliberately NOT listed: they are thin lists of
+// posts already in the blog index and are served with noindex.
+const sitemapUrls = posts.map((p) => ({
+  loc: `${SITE_URL}/blog/${p.slug}`,
+  lastmod: p.updatedDate ?? p.publishDate,
+}));
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${sitemapUrls

@@ -82,11 +82,11 @@ Bodyweight exercises are a form of lower-load training, so those findings sugges
 
 Many people approach fitness by asking:
 
-> "What skill should I learn first?"
+> What skill should I learn first?
 
 A better question is:
 
-> "What movement pattern should I practice first?"
+> What movement pattern should I practice first?
 
 Skills come later. Movement patterns come first.
 

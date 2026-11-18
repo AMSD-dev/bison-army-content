@@ -4,7 +4,7 @@ description: "Discover the science behind daily movement benefits, why sedentary
 author:
   name: "Command"
 publishDate: "2026-11-18"
-featuredImage: "/blog-images/science-of-daily-movement/cover.webp"
+featuredImage: "/images/science-of-daily-movement/cover.webp"
 featuredImageAlt: "Person walking outdoors during a daily movement routine"
 tags: ["daily movement", "walking", "mobility", "movement health", "bodyweight training", "wellness"]
 category: "Health & Wellness"

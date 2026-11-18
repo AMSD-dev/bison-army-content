@@ -1,6 +1,6 @@
 ---
 title: "The Science of Daily Movement: Why Humans Were Designed to Move"
-description: "Discover the science behind daily movement benefits, why sedentary lifestyles clash with human biology, and how simple daily movement can improve health, mobility, and long-term fitness."
+description: "Discover daily movement benefits, why humans are designed to move, and how walking, mobility, and bodyweight exercise improve health."
 author:
   name: "Command"
 publishDate: "2026-11-18"

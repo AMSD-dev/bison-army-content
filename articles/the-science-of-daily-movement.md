@@ -22,7 +22,7 @@ faq:
 
 ## Quick Answer
 
-Humans evolved to move throughout the day.
+Humans evolved to move throughout the day. 
 
 The benefits of daily movement include improved cardiovascular health, better metabolic function, increased mobility, enhanced mental well-being, and reduced health risks associated with prolonged sitting. Research consistently shows that moving more and sitting less supports long-term health, even when those movements are simple activities like walking, mobility drills, or bodyweight exercises.
 

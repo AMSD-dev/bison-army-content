@@ -10,13 +10,13 @@ tags: ["stabilizer muscles", "calisthenics", "joint health", "posture", "core tr
 category: "Calisthenics"
 draft: false
 faq:
-- question: "What are stabilizer muscles?"
+  - question: "What are stabilizer muscles?"
     answer: "Stabilizer muscles are smaller, deeper muscles that contract isometrically to hold a joint steady while larger prime mover muscles produce movement. Examples include the rotator cuff in the shoulder, the gluteus medius in the hip, and the transverse abdominis in the core."
-- question: "Do machine workouts train stabilizer muscles?"
+  - question: "Do machine workouts train stabilizer muscles?"
     answer: "Very little. Weight machines guide the path of resistance on a fixed track, removing the need for your body to balance or control joint alignment. Free weights, unilateral exercises, and calisthenics require your stabilizers to work continuously."
-- question: "Can strengthening stabilizer muscles help prevent injuries?"
+  - question: "Can strengthening stabilizer muscles help prevent injuries?"
     answer: "Yes. Research shows that neuromuscular and joint-stabilization training programs significantly reduce lower-limb and shoulder injuries by improving dynamic joint control and reducing abnormal stress on ligaments and tendons."
-- question: "How do I train my stabilizer muscles?"
+  - question: "How do I train my stabilizer muscles?"
     answer: "Focus on exercises where you have to control your own body position in space: static holds, single-leg movements, unilateral pushing and pulling, and slow, controlled calisthenics reps without momentum."
 ---
 

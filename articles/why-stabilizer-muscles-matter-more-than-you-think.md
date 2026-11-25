@@ -28,7 +28,7 @@ faq:
 
 Most people train only the muscles they see in the mirror—chest, biceps, quads, and abs—while ignoring the deeper musculature holding those joints together. When prime movers grow strong faster than the stabilizers supporting them, joints take on shear forces they were never designed to handle.
 
-If you've read [The Power of Static Holds](/blog/the-power-of-static-holds) or our guide on [Core Training](/blog/core-training), you already know that true strength isn't just how much weight you can push—it's how well you can control your body under tension. Training stabilizers bridges the gap between gym numbers and [Real-World Strength](/blog/real-world-strength).
+If you've read [The Power of Static Holds](/blog/the-power-of-static-holds), you already know that true strength isn't just how much weight you can push—it's how well you can control your body under tension. Training stabilizers bridges the gap between gym numbers and real-world Strength.
 
 ## What Stabilizer Muscles Are
 
@@ -64,7 +64,7 @@ Good posture isn't achieved by consciously forcing your shoulders back all day�
 
 Modern desk habits shorten the chest and hip flexors while switching off the deep neck flexors, lower traps, serratus anterior, and glutes. Over time, your skeleton settles into forward head posture, rounded shoulders, and an anterior pelvic tilt.
 
-Because stabilizer muscles are composed largely of **slow-twitch (Type I) muscle fibers**, they are built for low-to-moderate tension over long durations. Consistent bodyweight holds, scapular retractions, and anti-rotation [core training](/blog/core-training) restore the baseline endurance needed to hold upright alignment effortlessly.
+Because stabilizer muscles are composed largely of **slow-twitch (Type I) muscle fibers**, they are built for low-to-moderate tension over long durations. Consistent bodyweight holds, scapular retractions, and anti-rotation core training restore the baseline endurance needed to hold upright alignment effortlessly.
 
 ## Why Calisthenics Has a Built-In Advantage
 
@@ -77,7 +77,7 @@ Calisthenics flips that equation. Every bodyweight movement is a closed-chain, m
 - **Single-leg squats, lunges, and split holds** force the gluteus medius and ankle stabilizers to prevent lateral collapse on every rep.
 - **[Static holds](/blog/the-power-of-static-holds)** like planks, hollow body holds, and L-sits train deep trunk and shoulder stabilizers under continuous isometric tension.
 
-This carries directly over to [Real-World Strength](/blog/real-world-strength): lifting uneven objects, catching your balance on slick ground, climbing, and moving athletically without tweaking a joint.
+This carries directly over to real-world strength: lifting uneven objects, catching your balance on slick ground, climbing, and moving athletically without tweaking a joint.
 
 ## How to Train Your Stabilizers Without Overcomplicating It
 

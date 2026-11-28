@@ -5,7 +5,7 @@ author:
   name: "Command"
 publishDate: "2026-09-25"
 updatedDate: "2026-10-13"
-featuredImage: "/blog-images/why-motivation-fails-and-discipline-wins/cover.webp"
+featuredImage: "images/why-motivation-fails-and-discipline-wins/cover.webp"
 featuredImageAlt: "A person lacing up shoes for an early morning workout"
 tags: ["motivation", "discipline", "fitness habits", "workout streaks"]
 category: "Discipline"

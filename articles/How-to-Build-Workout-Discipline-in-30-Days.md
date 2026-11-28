@@ -4,7 +4,7 @@ description: "A structured, psychology-backed 30-day plan to build workout disci
 author:
   name: "Command"
 publishDate: "2026-10-01"
-featuredImage: "/blog-images/how-to-build-workout-discipline-in-30-days/cover.webp"
+featuredImage: "images/how-to-build-workout-discipline-in-30-days/cover.webp"
 featuredImageAlt: "A person training at home during an early morning workout"
 tags: ["discipline", "consistency", "habit formation", "workout routine"]
 category: "Discipline"

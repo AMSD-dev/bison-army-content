@@ -4,7 +4,7 @@ description: "Discover daily movement benefits, why humans are designed to move,
 author:
   name: "Command"
 publishDate: "2026-11-18"
-featuredImage: "/images/the-science-of-daily-movement/cover.webp"
+featuredImage: "images/the-science-of-daily-movement/cover.webp"
 featuredImageAlt: "Person walking outdoors during a daily movement routine"
 tags: ["daily movement benefits", "walking", "mobility", "sedentary lifestyle", "bodyweight exercise", "movement health"]
 category: "Health & Wellness"

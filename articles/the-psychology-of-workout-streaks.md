@@ -4,7 +4,7 @@ description: "Do workout streaks actually work? See what research says about str
 author:
   name: "Command"
 publishDate: "2026-10-28"
-featuredImage: "/blog-images/the-psychology-of-workout-streaks/cover.webp"
+featuredImage: "images/the-psychology-of-workout-streaks/cover.webp"
 featuredImageAlt: "An athlete checking a long workout streak on a fitness app"
 tags: ["workout streaks", "discipline", "habit formation", "fitness psychology", "consistency"]
 category: "Discipline"

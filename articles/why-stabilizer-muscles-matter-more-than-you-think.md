@@ -4,7 +4,7 @@ description: "Stabilizer muscles protect joints, improve posture, and boost real
 author:
   name: "Command"
 publishDate: "2026-11-24"
-featuredImage: "/blog-images/why-stabilizer-muscles-matter/cover.webp"
+featuredImage: "images/why-stabilizer-muscles-matter/cover.webp"
 featuredImageAlt: "An athlete holding a single-arm plank with controlled form and shoulder stability"
 tags: ["stabilizer muscles", "calisthenics", "joint health", "posture", "core training"]
 category: "Calisthenics"

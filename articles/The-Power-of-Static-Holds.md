@@ -4,7 +4,7 @@ description: "Static holds are simple, equipment-free strength training. See wha
 author:
   name: "Command"
 publishDate: "2026-10-19"
-featuredImage: "/blog-images/the-power-of-static-holds/cover.webp"
+featuredImage: "images/the-power-of-static-holds/cover.webp"
 featuredImageAlt: "An athlete holding a plank position with perfect form"
 tags: ["static holds", "isometrics", "calisthenics", "discipline", "posture"]
 category: "Calisthenics"

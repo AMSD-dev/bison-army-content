@@ -4,7 +4,7 @@ description: "Daily 15-minute workouts can build consistency and discipline. See
 author:
   name: "Command"
 publishDate: "2026-10-15"
-featuredImage: "/blog-images/what-happens-when-you-exercise-for-15-minutes-every-day/cover.webp"
+featuredImage: "images/what-happens-when-you-exercise-for-15-minutes-every-day/cover.webp"
 featuredImageAlt: "A person doing a short home workout in a living room"
 tags: ["15-minute workouts", "consistency", "discipline", "habit formation"]
 category: "Consistency"

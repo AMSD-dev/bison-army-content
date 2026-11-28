@@ -4,7 +4,7 @@ description: "New to calisthenics? Learn five foundational bodyweight movements,
 author:
   name: "Command"
 publishDate: "2026-11-09"
-featuredImage: "/blog-images/beginner-calisthenics-guide/cover.webp"
+featuredImage: "images/beginner-calisthenics-guide/cover.webp"
 featuredImageAlt: "Beginner athlete performing fundamental calisthenics movements outdoors"
 tags: ["calisthenics", "bodyweight training", "beginner fitness", "strength training", "discipline"]
 category: "Calisthenics"

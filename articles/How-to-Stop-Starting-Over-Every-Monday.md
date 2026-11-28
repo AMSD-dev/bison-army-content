@@ -4,7 +4,7 @@ description: "If you restart your fitness routine every Monday, you're not alone
 author:
   name: "Command"
 publishDate: "2026-10-08"
-featuredImage: "/blog-images/how-to-stop-starting-over-every-monday/cover.webp"
+featuredImage: "images/how-to-stop-starting-over-every-monday/cover.webp"
 featuredImageAlt: "A person preparing for a Monday workout with determination"
 tags: ["discipline", "consistency", "habit formation", "motivation"]
 category: "Discipline"
